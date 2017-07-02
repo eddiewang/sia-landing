@@ -1,0 +1,13 @@
+/*! Place your custom styles here */
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.button__module {
+  margin-left: auto;
+}
+
+.sia-logo {
+  height: 35px;
+}
