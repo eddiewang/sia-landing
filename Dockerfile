@@ -1,3 +1,3 @@
-FROM kyma/docker-nginx
-COPY src/ /var/www
-CMD 'nginx'better
+FROM nginx
+COPY src/ /usr/share/nginx/html
+EXPOSE 80
